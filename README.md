@@ -1,2 +1,2 @@
 # 4A
-Desenvolvido para grupo de alunos da faculdade de pedagogia da Uninove, 4A é um portfólio de atividades pedagógicas desenvolvido durante o quarto bimestre da Licenciatura.
+Desenvolvido para um grupo de alunos, 4A é um portfólio que visa divulgar as atividades pedagógicas desenvolvidas durante o quarto semestre da faculdade de Pedagogia na Uninove.
