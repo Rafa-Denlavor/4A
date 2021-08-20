@@ -1,0 +1,8 @@
+.header__link {
+   color: var(--text-default);
+}
+
+.header__link:hover {
+   padding-bottom: 0.4rem;
+   border-bottom: 3.5px solid var(--secondary-color); 
+}
