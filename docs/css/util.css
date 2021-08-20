@@ -9,7 +9,10 @@ a {
 
 body {
    background-color: var(--background-body);
+   font-family: space-regular;
 }
+
+/* CLASSES REUTILIZÁVEIS */
 
 .title__main {
    color: var(--text-default);
@@ -20,10 +23,25 @@ body {
 .center__content {
    display: grid;
    place-items: center;
+   place-content: center;
 }
 
+/* FIM DAS CLASSES REUTILIZÁVEIS */
 
+#introduction {
 
+}
+
+.introduction__containerLogo {
+   background-color: var(--white);
+}
+
+.introduction__logo {
+   display: block;
+   border-bottom: 2px solid var(--gray-500);
+   padding-bottom: 0.3rem;
+   margin-bottom: 0.6rem;
+}
 
 :root {
    --primary-color: #0CECDD;
