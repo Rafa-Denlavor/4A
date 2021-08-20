@@ -21,26 +21,41 @@ body {
 }
 
 .center__content {
-   display: grid;
-   place-items: center;
-   place-content: center;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
 }
 
 /* FIM DAS CLASSES REUTILIZÁVEIS */
 
-#introduction {
+/*ACTIVITIES*/
 
+#activities {
+   width: 100vw;
+   height: 33vh;
+   background-color: var(--primary-color);
+   display: grid;
+   place-items: center;
 }
 
-.introduction__containerLogo {
-   background-color: var(--white);
+.activities__title {
+   text-align: center;
+   font-size: 3rem;
+   text-transform: uppercase;
+   font-family: space-light;
+   padding-bottom: 1.5rem;
+}
+.activities__description {
+   text-align: center;
 }
 
-.introduction__logo {
-   display: block;
-   border-bottom: 2px solid var(--gray-500);
-   padding-bottom: 0.3rem;
-   margin-bottom: 0.6rem;
+.activities__list {
+   display: flex;
+   list-style-type: disc;
+}
+
+.activities__list li {
+   padding-right: 2rem;
 }
 
 :root {
@@ -52,6 +67,8 @@ body {
 
    --background-body: #f0f8ff;
    --text-default:#eeeeee;
+
+   --blue-200: #82fff7fd;
 
    --purple-200: #F0D9FF;
    --purple-400: #BFA2DB;

@@ -1,0 +1,10 @@
+.introduction__link {
+   padding: 1rem 2rem;
+   color: var(--gray-700);
+   background-color: var(--primary-color);
+   border-radius: 5px;
+}
+
+.introduction__link:hover {
+   background-color: var(--blue-200);
+}
